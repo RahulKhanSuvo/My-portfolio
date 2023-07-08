@@ -158,6 +158,7 @@ main section {
 display: flex;
 gap: 50px;
 
+
 }
 .download-cv{
     text-align: center;
@@ -173,11 +174,16 @@ gap: 50px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute {
+.resume-item-institute{
     margin-bottom: 20px;
     margin-top: 0px;
-
-.resume-item-institute,
-.resume-item-description {
-        color: #757575;
-    }
+}
+.resume-container hr {
+    margin: 30px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
